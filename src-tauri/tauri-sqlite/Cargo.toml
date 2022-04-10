@@ -1,0 +1,9 @@
+[package]
+name = "tauri-sqlite"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+sqlx = { version = "0.5", features = ["sqlite", "runtime-tokio-rustls", "json"] }
+tauri = "1.0.0-rc.6"
